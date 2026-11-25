@@ -9,7 +9,7 @@
 
 <tt>˗ˏˋ ★ ˎˊ˗ `STAGE 0: REAL LINUX & BARE C`</tt>
 
-- **OverTheWire: Bandit & CS50x Weeks 0–5** · [`OTW(B)`](https://github.com)[`CS50X`](https://github.com)<br>
+- **OverTheWire: Bandit & CS50x Weeks 0–5** · [`OTW(B)`](https://gist.github.com/sudochaithra/fe0f2bd3516d9f1b628a6b8fed46e4d0.js)[`CS50X`](https://github.com)<br>
   Lock down shell survival, SSH, file permissions, and basic C memory/pointer.
 
 - **Nand2Tetris PartS I & II**<br>
