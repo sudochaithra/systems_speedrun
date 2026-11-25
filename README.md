@@ -22,7 +22,7 @@
 <a href="N2T2.pdf"><img src="https://img.shields.io/badge/Nand_to_Tetris-Part_2-0056D2?style=for-the-badge&logo=coursera&logoColor=white" alt="Nand to Tetris Part 2"></a>
 
 - **Beej’s Guide to Network Programming** · [`open gist`](https://github.com)<br>
-  Write pure C on Linux (`gcc -Wall -Wextra`, `gdb`, `strace`) using POSIX sockets, file descriptors, and raw network I/O.<br>
+  Write pure C on Linux using POSIX sockets, file descriptors, and raw network I/O.<br>
 
 
 <p align="center">•─────⋅ᓚᘏᗢ⋅──────────⋅ᓚᘏᗢ⋅──────────⋅ᓚᘏᗢ⋅─────•</p>
@@ -35,8 +35,6 @@
 - **Datasheets & Bus Protocols (UART, SPI, I2C)** · [`open gist`](https://github.com)<br>
   Configure hardware registers, handle interrupts, and sniff live pin traffic with a cheap \$10 logic analyzer.
 
-- **Milestone Teardown:** Grab a cheap used router, probe for the UART header with a multimeter, solder pins, watch bootloader logs in `minicom`, and dump the SPI flash chip.
-
 <p align="center">•─────⋅ᓚᘏᗢ⋅──────────⋅ᓚᘏᗢ⋅──────────⋅ᓚᘏᗢ⋅─────•</p>
 
 <tt>˗ˏˋ ★ ˎˊ˗ `STAGE 2: THE NETWORK STACK`</tt>
@@ -48,11 +46,9 @@
 - **Linux Kernel Networking (`ip route`, `nftables`, `ip netns`)** · [`open gist`](https://github.com)<br>
   Turn a Linux box into a custom router using network namespaces and firewall rules.
 
-- **Milestone Lab:** Capture my own live traffic with `tcpdump` and Wireshark and dissect the raw hex packet headers byte by byte.
-
 <p align="center">•─────⋅ᓚᘏᗢ⋅──────────⋅ᓚᘏᗢ⋅──────────⋅ᓚᘏᗢ⋅─────•</p>
 
-<tt>˗ˏˋ ★ ˎˊ˗ `STAGE 3: SIGNALS IN CODE & RF`</tt>
+<tt>˗ˏˋ ★ ˎˊ˗ `STAGE 3: SIGNALS & RF`</tt>
 
 - **RTL-SDR & Raw IQ Samples** · [`open gist`](https://github.com)<br>
   Plug in a \$30 RTL-SDR, open GNU Radio, or write Python/C scripts to pull raw IQ data straight from the air.<br>
@@ -61,50 +57,11 @@
 - **Practical DSP & *Microwaves101*** · [`open gist`](https://github.com)<br>
   Learn FFTs by applying them to real radio captures; read *Microwaves101* on SWR, 50Ω impedance matching, and decibels when my antenna setup needs fixing.
 
-- **Milestone Capture:** Demodulate live FM radio or decode 433 MHz ISM sensor packets from raw IQ samples.
-
 <p align="center">•─────⋅ᓚᘏᗢ⋅──────────⋅ᓚᘏᗢ⋅──────────⋅ᓚᘏᗢ⋅─────•</p>
 
----
 
-## Repo Structure
-
-```text
-systems-speedrun/
-├── README.md
-├── stage-0-linux-c/
-│   ├── nand2tetris-part1/
-│   ├── kr-c/
-│   ├── beej-net/
-│   └── milestone-c-sniffer/
-│       ├── Makefile
-│       ├── src/
-│       └── README.md
-├── stage-1-bare-metal/
-│   ├── sdk-blinky-registers/
-│   ├── bus-captures/
-│   └── milestone-router-teardown/
-│       ├── pinout.md
-│       ├── bootlog.txt
-│       ├── firmware.bin
-│       └── README.md
-├── stage-2-network-stack/
-│   ├── cs144-tcp/
-│   ├── netns-router/
-│   └── milestone-packet-dissection/
-│       ├── capture.pcap
-│       └── README.md
-└── stage-3-signals-rf/
-    ├── rtl-sdr-iq/
-    ├── fft-scripts/
-    └── milestone-433mhz-decoder/
-        ├── decoder.py
-        └── README.md
-```
-
----
-
-## Starter Milestone READMEs
+<!-- 
+//  ## Starter Milestone READMEs
 
 ### `stage-0-linux-c/milestone-c-sniffer/README.md`
 ```markdown
@@ -167,5 +124,4 @@ Build a zero-dependency Ethernet/IPv4/TCP/UDP packet sniffer in pure C on Linux 
 2. Compute magnitude \(\sqrt{I^2 + Q^2}\) and apply low-pass envelope detection
 3. Threshold pulses into binary bits and decode device ID + sensor payload
 ```
-
-
+--!>
