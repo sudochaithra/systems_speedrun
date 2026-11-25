@@ -12,15 +12,12 @@
 - **OverTheWire: Bandit & CS50x Weeks 0–5** · [`open gist`](https://github.com)<br>
   Lock down shell survival, SSH, file permissions, and basic C memory/pointer.
 
-- **Nand2Tetris Part I**<br>
-  Hardware Architecture (logic gates, CPU, assembler)<br>
+- **Nand2Tetris PartS I & II**<br>
+  Hardware Architecture (logic gates, CPU, assembler) &  Software Hierarchy (VM, compiler, OS)<br>
 <a href="N2T1.pdf"><img src="https://img.shields.io/badge/Nand_to_Tetris-Part_1-0056D2?style=for-the-badge&logo=coursera&logoColor=white" alt="Nand to Tetris Part 1"></a> 
-
-
-- **Nand2Tetris Part II**<br>
-  Software Hierarchy (VM, compiler, OS)<br>
 <a href="N2T2.pdf"><img src="https://img.shields.io/badge/Nand_to_Tetris-Part_2-0056D2?style=for-the-badge&logo=coursera&logoColor=white" alt="Nand to Tetris Part 2"></a>
 
+ 
 - **Beej’s Guide to Network Programming** · [`open gist`](https://github.com)<br>
   Write pure C on Linux using POSIX sockets, file descriptors, and raw network I/O.<br>
 
