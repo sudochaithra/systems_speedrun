@@ -17,12 +17,38 @@
 <a href="N2T1.pdf"><img src="https://img.shields.io/badge/Nand_to_Tetris-Part_1-0056D2?style=for-the-badge&logo=coursera&logoColor=white" alt="Nand to Tetris Part 1"></a> 
 <a href="N2T2.pdf"><img src="https://img.shields.io/badge/Nand_to_Tetris-Part_2-0056D2?style=for-the-badge&logo=coursera&logoColor=white" alt="Nand to Tetris Part 2"></a>
 
- 
+- **Harvard CS 61 (Systems Programming)** · [`open gist`](https://github.com)<br>
+	Combines your C knowledge with architecture on real x86-64 Linux machines—covering assembly, memory exploits, caching, kernel traps, and concurrency.
+
 - **Beej’s Guide to Network Programming** · [`open gist`](https://github.com)<br>
   Write pure C on Linux using POSIX sockets, file descriptors, and raw network I/O.<br>
 
-
 <p align="center">•─────⋅ᓚᘏᗢ⋅──────────⋅ᓚᘏᗢ⋅──────────⋅ᓚᘏᗢ⋅─────•</p>
+
+<!---
+### ˗ˏˋ ★ ˎˊ˗ `STAGE 1: BARE-METAL HARDWARE & EMBEDDED`
+- **Electronics & Microcontroller Basics (ESP32 / STM32 / Raspberry Pi Pico)**<br>
+  Move from simulated gates to real breadboards: voltage, current, PWM, interrupts, and datasheet reading.
+- **Hardware Protocols & Bus Sniffing**<br>
+  Master **UART, SPI, and I2C** communication using a cheap USB logic analyzer (Saleae clone + PulseView) and dump flash memory chips.
+- **Firmware Reverse Engineering**<br>
+  Extract `.bin` firmware images (`binwalk`), inspect strings/symbols, and load binaries into **Ghidra** to analyze ARM/Xtensa assembly.
+
+### ˗ˏˋ ★ ˎˊ˗ `STAGE 2: NETWORKS & PACKET HACKING`
+- **Network Fundamentals & Traffic Analysis**<br>
+  Master TCP/IP, ARP, DNS, and subnetting by capturing and dissecting live packets in **Wireshark** and `tcpdump`.
+- **Packet Crafting & Recon**<br>
+  Build custom network scanners, ARP spoofers, and raw packet injectors using Python (`scapy`) or C raw sockets (`libpcap`).
+- **Wireless & Wi-Fi Auditing (802.11)**<br>
+  Use a monitor-mode Wi-Fi adapter (`aircrack-ng` suite) to inspect management frames, deauth mechanics, and WPA2/WPA3 handshakes.
+
+### ˗ˏˋ ★ ˎˊ˗ `STAGE 3: RF (RADIO FREQUENCY) & SDR TINKERING`
+- **Software Defined Radio (RTL-SDR) & Spectrum Analysis**<br>
+  Visualize the invisible RF spectrum (waterfall plots), understand modulation (AM, FM, ASK/OOK, FSK), and capture live signals with **SDR++** or **GQRX**.
+- **Signal Decoding & Reverse Engineering**<br>
+  Capture and decode ISM-band devices (433MHz/868MHz weather stations, tire pressure sensors, garage/key fobs) using **Universal Radio Hacker (URH)** and `rtl_433`.
+- **GNU Radio & Signal Processing (DSP)**<br>
+  Build visual flowgraphs in **GNU Radio** to filter, demodulate, and build custom receivers from scratch.
 
 <tt>˗ˏˋ ★ ˎˊ˗ `STAGE 1: BARE-METAL HARDWARE`</tt>
 
